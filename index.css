@@ -1,0 +1,15 @@
+body {
+  font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#intro h1 {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#intro p {
+  font-size: 16px;
+  font-family: 'Droid Serif', serif;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: italic;
+}
