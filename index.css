@@ -1,9 +1,49 @@
 body {
   font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #fff url("assets/img/bg_pattern.png");
+}
+
+h2 {
+  font-family: "Droid Serif";
+  font-weight: normal;
+}
+
+h1 {
+  font-family: "Droid Serif";
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+hr {
+  border-top: 1px solid #a29c9c;
+  border-bottom: 1px solid #ffffff;
+}
+
+.orange-text {
+  color: #f89406;
+}
+
+#intro {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background: #fafafa url("assets/img/bg_noise.png");
 }
 
 #intro h1 {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+#intro #subscribe {
+  margin-top: 40px;
+}
+
+#intro input {
+  padding: 9px 14px;
+  margin-top: 10px;
+}
+
+#intro .email {
+  font-size: 16px;
 }
 
 #intro p {
@@ -12,4 +52,8 @@ body {
   line-height: 26px;
   font-weight: 400;
   font-style: italic;
+}
+
+#explain img {
+  max-width: 60%;
 }
